@@ -1,0 +1,40 @@
+.healthy-order__order-list{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 80px;
+  list-style: none;
+}
+.healthy-order__order-text{
+  margin-top: 60px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.healthy-order__order-link{
+  display:inline-block;
+  margin-left:70px ;
+  position: relative;
+  text-decoration: none;
+  color: rgb(235, 103, 97);
+  font-size: 18px;
+  font-weight: 500;
+  
+  
+  &::before{
+    content: "";
+    width: 40px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    border-bottom:3px solid rgb(235, 103, 97) ;
+  }
+  
+}
+.healthy-order__order-link::before:hover{
+  content: "";
+  width: 70px;
+  border-bottom:3px solid rgb(235, 103, 97) ;
+}

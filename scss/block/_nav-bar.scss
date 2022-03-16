@@ -1,0 +1,28 @@
+.nav-bar{
+  display: flex;
+  align-items: center;
+}
+.nav-bar__nav-list{
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+.nav-bar__nav-item{
+  transition: 0.9s ease;
+  padding: 10px;
+  border-bottom: 3px solid transparent;
+}
+.nav-bar__nav-item:hover{
+  border-bottom: 2px solid rgb(194, 194, 194);
+  transition: 0.9s ease;
+}
+.nav-bar__nav-link{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 25px;
+}

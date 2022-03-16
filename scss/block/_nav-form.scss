@@ -1,0 +1,19 @@
+.nav-form__form-text{
+  width: 250px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  border-top:none ;
+  border-right:none ;
+  border-left: none;
+  outline:none ;
+  border-bottom: 0.9px solid ;
+  outline: none;
+}
+.nav-form__form-text::placeholder{
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+}
